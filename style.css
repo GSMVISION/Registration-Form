@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap");
+
+body,
+label,
+input,
+textarea,
+select,
+button{
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+}
+body{
+    background: url(pic/3.png)center/cover fixed no-repeat;
+    
+}
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 0px solid #000000;
+  border-radius: 20px;
+  box-shadow: 2px 4px 27px -2px rgba(255, 12, 239, 0.64);
+  -webkit-box-shadow: 2px 4px 27px -2px rgba(3, 0, 3, 0.473);
+  -moz-box-shadow: 2px 4px 27px -2px rgba(255, 12, 174, 0.64);
+    font-family: "DM+Sans";
+  background: rgba(255, 255, 255, 0.773) url(pic/3.png) center/cover;
+
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+input[type="file"] {
+  margin-bottom: 12px;
+}
+
+
+button {
+  padding: 10px 15px;
+  background-color: #a84caf;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4c5eaf;
+}
+
